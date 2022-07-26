@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3FD15DBE816883FE63CAF6 /* Pods_MVVMAppRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BA8F860E9B61E2E775C095 /* Pods_MVVMAppRxSwift.framework */; };
 		797F5133288FE8B100ED4C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F5132288FE8B100ED4C39 /* AppDelegate.swift */; };
 		797F5135288FE8B100ED4C39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F5134288FE8B100ED4C39 /* SceneDelegate.swift */; };
 		797F5137288FE8B100ED4C39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F5136288FE8B100ED4C39 /* ViewController.swift */; };
 		797F513A288FE8B100ED4C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797F5138288FE8B100ED4C39 /* Main.storyboard */; };
 		797F513C288FE8B400ED4C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797F513B288FE8B400ED4C39 /* Assets.xcassets */; };
 		797F513F288FE8B400ED4C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797F513D288FE8B400ED4C39 /* LaunchScreen.storyboard */; };
+		797F5149288FEA1B00ED4C39 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F5148288FEA1B00ED4C39 /* ViewModel.swift */; };
+		797F514D288FEB2D00ED4C39 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F514C288FEB2D00ED4C39 /* Model.swift */; };
+		797F5152288FEBF600ED4C39 /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F5151288FEBF600ED4C39 /* BaseCollectionCell.swift */; };
+		797F5154288FEC9700ED4C39 /* AppRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F5153288FEC9700ED4C39 /* AppRepository.swift */; };
+		797F5156288FECC600ED4C39 /* AppUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F5155288FECC600ED4C39 /* AppUrl.swift */; };
+		797F5158288FEE0400ED4C39 /* BaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F5157288FEE0400ED4C39 /* BaseTableCell.swift */; };
+		797F515A288FEED500ED4C39 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F5159288FEED500ED4C39 /* ViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20CB0013A6BB05C00E2F6FDB /* Pods-MVVMAppRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMAppRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-MVVMAppRxSwift/Pods-MVVMAppRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		26BA8F860E9B61E2E775C095 /* Pods_MVVMAppRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMAppRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		797F512F288FE8B100ED4C39 /* MVVMAppRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMAppRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797F5132288FE8B100ED4C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		797F5134288FE8B100ED4C39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		797F513B288FE8B400ED4C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		797F513E288FE8B400ED4C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		797F5140288FE8B400ED4C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797F5148288FEA1B00ED4C39 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		797F514C288FEB2D00ED4C39 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		797F5151288FEBF600ED4C39 /* BaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
+		797F5153288FEC9700ED4C39 /* AppRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRepository.swift; sourceTree = "<group>"; };
+		797F5155288FECC600ED4C39 /* AppUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUrl.swift; sourceTree = "<group>"; };
+		797F5157288FEE0400ED4C39 /* BaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCell.swift; sourceTree = "<group>"; };
+		797F5159288FEED500ED4C39 /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
+		E909F8D5BC61F3699C1C27A8 /* Pods-MVVMAppRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMAppRxSwift.release.xcconfig"; path = "Target Support Files/Pods-MVVMAppRxSwift/Pods-MVVMAppRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3FD15DBE816883FE63CAF6 /* Pods_MVVMAppRxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				797F5131288FE8B100ED4C39 /* MVVMAppRxSwift */,
 				797F5130288FE8B100ED4C39 /* Products */,
+				C2759E9B74A261C988843DA9 /* Pods */,
+				9651E68B51F0A5D24ABCF7E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,87 @@
 		797F5131288FE8B100ED4C39 /* MVVMAppRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				797F5132288FE8B100ED4C39 /* AppDelegate.swift */,
-				797F5134288FE8B100ED4C39 /* SceneDelegate.swift */,
-				797F5136288FE8B100ED4C39 /* ViewController.swift */,
+				797F5150288FEBE500ED4C39 /* Base */,
+				797F514B288FEB2200ED4C39 /* Model */,
+				797F514A288FEAA400ED4C39 /* Repository */,
+				797F5147288FEA0400ED4C39 /* App */,
+				797F514E288FEBBD00ED4C39 /* Controller */,
 				797F5138288FE8B100ED4C39 /* Main.storyboard */,
 				797F513B288FE8B400ED4C39 /* Assets.xcassets */,
 				797F513D288FE8B400ED4C39 /* LaunchScreen.storyboard */,
 				797F5140288FE8B400ED4C39 /* Info.plist */,
 			);
 			path = MVVMAppRxSwift;
+			sourceTree = "<group>";
+		};
+		797F5147288FEA0400ED4C39 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				797F5132288FE8B100ED4C39 /* AppDelegate.swift */,
+				797F5134288FE8B100ED4C39 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		797F514A288FEAA400ED4C39 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				797F5153288FEC9700ED4C39 /* AppRepository.swift */,
+				797F5155288FECC600ED4C39 /* AppUrl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		797F514B288FEB2200ED4C39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				797F514C288FEB2D00ED4C39 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		797F514E288FEBBD00ED4C39 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				797F514F288FEBD100ED4C39 /* View */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		797F514F288FEBD100ED4C39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				797F5136288FE8B100ED4C39 /* ViewController.swift */,
+				797F5159288FEED500ED4C39 /* ViewCell.swift */,
+				797F5148288FEA1B00ED4C39 /* ViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		797F5150288FEBE500ED4C39 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				797F5151288FEBF600ED4C39 /* BaseCollectionCell.swift */,
+				797F5157288FEE0400ED4C39 /* BaseTableCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9651E68B51F0A5D24ABCF7E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26BA8F860E9B61E2E775C095 /* Pods_MVVMAppRxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2759E9B74A261C988843DA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20CB0013A6BB05C00E2F6FDB /* Pods-MVVMAppRxSwift.debug.xcconfig */,
+				E909F8D5BC61F3699C1C27A8 /* Pods-MVVMAppRxSwift.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 797F5143288FE8B400ED4C39 /* Build configuration list for PBXNativeTarget "MVVMAppRxSwift" */;
 			buildPhases = (
+				3B2CC1AE3CBA51E14148C025 /* [CP] Check Pods Manifest.lock */,
 				797F512B288FE8B100ED4C39 /* Sources */,
 				797F512C288FE8B100ED4C39 /* Frameworks */,
 				797F512D288FE8B100ED4C39 /* Resources */,
+				42E47CAB015083F4CB4F453B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +228,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B2CC1AE3CBA51E14148C025 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMAppRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42E47CAB015083F4CB4F453B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMAppRxSwift/Pods-MVVMAppRxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMAppRxSwift/Pods-MVVMAppRxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVMAppRxSwift/Pods-MVVMAppRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		797F512B288FE8B100ED4C39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797F5154288FEC9700ED4C39 /* AppRepository.swift in Sources */,
+				797F5158288FEE0400ED4C39 /* BaseTableCell.swift in Sources */,
+				797F514D288FEB2D00ED4C39 /* Model.swift in Sources */,
 				797F5137288FE8B100ED4C39 /* ViewController.swift in Sources */,
+				797F515A288FEED500ED4C39 /* ViewCell.swift in Sources */,
+				797F5156288FECC600ED4C39 /* AppUrl.swift in Sources */,
 				797F5133288FE8B100ED4C39 /* AppDelegate.swift in Sources */,
+				797F5149288FEA1B00ED4C39 /* ViewModel.swift in Sources */,
 				797F5135288FE8B100ED4C39 /* SceneDelegate.swift in Sources */,
+				797F5152288FEBF600ED4C39 /* BaseCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +426,7 @@
 		};
 		797F5144288FE8B400ED4C39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CB0013A6BB05C00E2F6FDB /* Pods-MVVMAppRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +455,7 @@
 		};
 		797F5145288FE8B400ED4C39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E909F8D5BC61F3699C1C27A8 /* Pods-MVVMAppRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
